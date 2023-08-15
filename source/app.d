@@ -52,7 +52,7 @@ int main(string[] args) {
 	Logger log = getLogger();
 	log.info(brandingCode);
 	string hostname = "0.0.0.0";
-	ushort port = 6969;
+	ushort port = 80;
 
 	string configurationPath = expandTilde("~/.config/anisette-v3");
 
